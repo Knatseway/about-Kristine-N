@@ -1,1 +1,116 @@
-.body
+h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Merriweather, serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*p {*/
+/*    color: orange;*/
+/*    float: right;*/
+/*}*/
+
+img.medium {
+    max-height: 250px;
+    max-width: 325px;
+    /*background-color: aliceblue;*/
+    /*padding-bottom: 50px;*/
+
+    border: solid aliceblue 10px;
+
+
+}
+
+figure  {
+    position: relative;
+
+}
+
+figcaption {
+    position: relative;
+    /*display: inline-flex;*/
+    text-indent: 110px;
+    color: dimgrey;
+    font-family: "Arial Black", sans-serif;
+    background-color: aliceblue;
+    border: solid aliceblue 10px;
+    top: -10px;
+}
+
+div.vertTextAlign{
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    /*background-color: #567895;*/
+    padding: 30px;
+    background-image: url("https://images.unsplash.com/photo-1516360298927-576d6d4d5004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
+    position: relative;
+
+}
+
+/*.box: :before{*/
+/*    content: ' ';*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: 1;*/
+/*    opacity: 0.6;*/
+/*    background-image: url('https://images.unsplash.com/photo-1516360298927-576d6d4d5004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80');*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: 50% 0;*/
+/*    -ms-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -webkit-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.box.img{*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    z-index: 1;*/
+/*    opacity: 0.5;*/
+/*}*/
+
+
+span.interestingFacts{
+    font-family: "Arial Black", sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 50px;
+    text-align: left;
+    text-indent: 20px;
+    -webkit-text-stroke: 1px grey;
+
+
+}
+
+hr{
+    border: none;
+    border-top: 3px double aliceblue;
+    color: aliceblue;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+/*hr:after {*/
+/*    !*background: aliceblue;*!*/
+/*    content: '~';*/
+/*    padding: 0 4px;*/
+/*    position: relative;*/
+/*    top: -13px;*/
+/*}*/
+
+
+
